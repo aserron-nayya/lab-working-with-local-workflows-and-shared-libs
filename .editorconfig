@@ -1,0 +1,41 @@
+root = true
+
+[*]
+# charset = utf-8
+# end_of_line = unset
+# indent_size = 4
+# indent_style = space
+# insert_final_newline = false
+# max_line_length = 120
+# tab_width = 4
+trim_trailing_whitespace = true
+
+[*.csv]
+# indent_style = tab
+
+[{*.bash,*.sh,*.zsh,.profile}]
+# indent_size = 2
+# tab_width = 2
+
+[{*.har,*.json,*.jsonc}]
+# indent_size = 2
+
+[{*.hcl,*.nomad}]
+# indent_size = 2
+
+[{*.py,*.pyw}]
+# max_line_length = 80
+
+
+[{*.toml}]
+
+[{*.xml}]
+[{*.yaml,*.yml}]
+# indent_size = 2
+ij_any_align_group_field_declarations = true
+ij_any_align_multiline_for = true
+ij_any_align_multiline_parameters_in_calls = true
+ij_python_align_multiline_parameters = true
+ij_yaml_align_values_properties = on_colon
+
+[{*.md}]

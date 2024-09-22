@@ -1,0 +1,27 @@
+[project]
+name = "aserron-experiments-likemono"
+version = "0.1.0"
+description = "Like Monorepos On Python Module"
+
+authors = [
+    { name = "Andrés Serrón", email = "andres.serron@nayya.com" }
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["myapp/src"]
+
+[tool.pytest.ini_options]
+testpaths = [
+    "myapp/tests",
+    "libs/library1/tests",
+    "libs/library2/tests"
+]
+
+[project.optional-dependencies]
+testing = [
+    "pytest>=6.0"
+]
