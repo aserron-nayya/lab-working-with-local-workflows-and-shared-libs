@@ -9,7 +9,7 @@ authors = [
 
 [build-system]
 requires = ["setuptools", "wheel"]
-build-backend = "setuptools.build_meta"
+build-backend = "setuptools.build_meta" # PEP 517 compliant build backend
 
 [tool.setuptools.packages.find]
 where = ["myapp/src"]
