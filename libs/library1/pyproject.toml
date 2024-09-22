@@ -1,0 +1,12 @@
+[project]
+name = "libs-library1"
+version = "0.1.0"
+description = "the first library"
+
+authors = [
+    { name = "Andrés Serrón", email = "andres.serron@nayya.com" }
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"

@@ -1,0 +1,12 @@
+[project]
+name = "libs-library2"
+version = "0.1.1"
+description = "the second library"
+
+authors = [
+    { name = "Andrés Serrón", email = "andres.serron@nayya.com" }
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
