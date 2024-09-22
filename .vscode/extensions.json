@@ -1,0 +1,18 @@
+{
+    "recommendations": [
+        "donjayamanne.python-extension-pack",
+        "mgesbert.python-path",
+        "njqdev.vscode-python-typehint",
+        "formulahendry.code-runner",
+        "franneck94.vscode-python-dev-extension-pack",
+        "leojhonsong.python-extension-pack",
+        "ms-vscode-remote.vscode-remote-extensionpack",
+        "ms-toolsai.jupyter",
+        "franneck94.vscode-cpython-extension-pack",
+        "amazonwebservices.aws-toolkit-vscode",
+        "mark-tucker.aws-cli-configure",
+        "necatiarslan.aws-s3-vscode-extension",
+        "github.vscode-github-actions",
+        "me-dutour-mathieu.vscode-github-actions"
+    ]
+}
